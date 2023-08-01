@@ -1,0 +1,14 @@
+dependencies {
+
+    // Kotlin Coroutines - Asynchronous
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-test-jvm:1.6.4"
+
+
+    // Dagger Hilt
+    implementation "com.google.dagger:hilt-android:$hiltx_version"
+    kapt "com.google.dagger:hilt-android-compiler:$hiltx_version"
+
+
+}
